@@ -1,0 +1,4 @@
+{
+  "db": "mongodb+srv://unstationary:unstationary123@unstationaryauth.9tqej.mongodb.net/Users?retryWrites=true&w=majority",
+  "jwtPrivateKey": "SomePrivateKey"
+}
