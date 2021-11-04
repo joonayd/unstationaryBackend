@@ -5,8 +5,5 @@ var router = express.Router();
 router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
 });
-router.get("/api/products", function (req, res, next) {
-  res.send(["laptop", "car", "hehe"]);
-});
 
 module.exports = router;
