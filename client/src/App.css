@@ -1,0 +1,541 @@
+* {
+  background-color: #eddfc0;
+}
+.body {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 70px;
+  background-color: #8c5740;
+}
+.nav-area {
+  list-style-type: none;
+  background: #8c5740;
+}
+.nav-area li {
+  display: inline-block;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  background: #8c5740;
+}
+.nav-area li a {
+  transition: 0.3s;
+  color: black;
+}
+.navbar {
+  height: 3vh;
+  justify-content: center;
+  align-items: center;
+  background: #8c5740;
+}
+h1 {
+  text-rendering: optimizeLegibility;
+  color: #8c5740;
+  font-family: helveticarounded-std, brandongrotesque-regular, sans-serif;
+}
+p {
+  color: #8c5740;
+  font-family: helveticarounded-std, brandongrotesque-regular, sans-serif;
+}
+.btn-login,
+.btn-signup {
+  float: right;
+  margin-top: -2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #8c5740;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.btn-signup {
+  border: 4px solid white;
+}
+.btn-signup:hover {
+  background-color: white;
+  color: #8c5740;
+  transition: 0.5s;
+}
+.btn-login:hover {
+  color: #00b7b5;
+}
+.heading1,
+.para1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.heading1 {
+  font-size: 3.5rem;
+}
+.para1 {
+  font-size: 1.25rem;
+}
+.size-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.vertical-box {
+  height: 14rem;
+  width: 10rem;
+  border: 7px solid rgb(29, 44, 90);
+  border-radius: 5px;
+  background: rgb(255, 214, 122);
+}
+.horizontal-box {
+  height: 10rem;
+  width: 14rem;
+  border: 7px solid rgb(29, 44, 90);
+  border-radius: 5px;
+  background: rgb(255, 214, 122);
+}
+.vertical h3,
+.horizontal h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #8c5740;
+}
+.vertical p,
+.horizontal p {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #00265d;
+}
+.btn-customize {
+  background-color: #9ba78c;
+  font-size: 1.5rem;
+  padding: 1.25rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+  width: 10rem;
+
+  border-radius: 0.25rem;
+}
+.btn-customize:hover {
+  background-color: #6d7563;
+}
+.horizontal,
+.vertical {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.upload-cards {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.upload-cards a {
+  color: #a16951;
+}
+.upload-cards a:hover {
+  color: #7c422a;
+}
+.blank-card-sec {
+  display: flex;
+  height: 80vh;
+  background: #9ba78c;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+.blank-card {
+  height: 38rem;
+  width: 30rem;
+  box-shadow: 10px 10px 10px 0 gray;
+  display: flex;
+  margin-left: 27rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blank-card p,
+.blank-card-horizontal p {
+  width: 70%;
+  text-align: center;
+}
+.blank-card a,
+.blank-card-horizontal a {
+  text-decoration: underline;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #2e9997;
+}
+.blank-card a:hover,
+.blank-card-horizontal a:hover {
+  color: #00265d;
+}
+
+.blank-card-horizontal {
+  height: 30rem;
+  width: 42rem;
+  box-shadow: 10px 10px 10px 0 gray;
+  display: flex;
+  margin-left: 15rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customize-card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  height: 30rem;
+  margin-left: 15rem;
+  box-shadow: 10px 10px 10px 0 gray;
+}
+.card-top1 h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.card-top1 {
+  margin-top: 2rem;
+}
+.card-top1 p,
+.card-top2 p {
+  margin-top: -1 rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.card-top2 a {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #2e9997;
+}
+.card-top2 a:hover {
+  color: #00b7b5;
+}
+.card-top3 h4 {
+  font-size: 1.25rem;
+}
+.card-top3 p {
+  font-size: 1.25rem;
+  width: 30rem;
+}
+
+/* UPLOAD PHOTO VERTICAL CSS */
+
+.upload-card-heading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.upload-photo-sec {
+  display: flex;
+  height: 95vh;
+  background: #9ba78c;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.upload-photo-card {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 25rem;
+  margin-left: 20rem;
+  margin-bottom: 20rem;
+}
+.upload-photo-card h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  background: #8c5740;
+}
+.upload-photo-card p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+.upload-photo-card-heading {
+  margin-bottom: 1rem;
+  background: #8c5740;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+.upload-photo-card-heading h3 {
+  margin-top: 1rem;
+}
+.choose-card-back {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 25rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
+}
+.choose-card-back h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  background: #8c5740;
+}
+.choose-card-checks {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.check-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+  width: 8rem;
+  background: white;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px 0px grey;
+}
+.check-box:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.card-column {
+  display: flex;
+  flex-direction: row;
+}
+.check-box input[type="radio"] {
+  border: 0px;
+  width: 100%;
+  height: 2em;
+}
+.check-box img {
+  height: 5rem;
+  width: 5rem;
+  background: white;
+  margin-right: 1rem;
+}
+.upload-photo-card img {
+  margin: 1rem;
+  height: 5rem;
+  width: 5rem;
+}
+.upload-photo-card input {
+  margin: 1rem;
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background: #c4f8ff;
+  box-shadow: 3px 3px 3px 0 grey;
+}
+.upload-photo-card input:focus {
+  background: #9aeaf5;
+  color: black;
+  font-weight: 500;
+  outline: none;
+}
+.container-auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-section {
+  margin-top: 2rem;
+  background: white;
+  height: 95vh;
+  width: 60vh;
+  box-shadow: 0.5px 0.5px 0.5px 0 grey;
+  border-radius: 1rem;
+}
+.auth-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  width: 20rem;
+  height: 4rem;
+  background: white;
+}
+.auth-section h3 {
+  text-align: center;
+  background: transparent;
+  margin-top: 2rem;
+}
+.auth-section p {
+  text-align: center;
+  background: transparent;
+  font-size: 1.25rem;
+}
+
+.auth-inputs {
+  display: flex;
+  flex-direction: column;
+
+  background: transparent;
+}
+.auth-inputs input {
+  width: 25rem;
+  height: 3.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.75rem;
+  border-radius: 4px;
+  border: none;
+  color: #8c5740;
+  font-weight: 500;
+  font-size: 1.25rem;
+  background-color: #eddfc0;
+}
+.social-buttons {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+.social-buttons button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 11rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+}
+.social-facebook {
+  background: #4267b2;
+  color: white;
+}
+.social-facebook:hover {
+  background: #2f549e;
+}
+.social-google {
+  background: #00265d;
+  color: white;
+}
+.social-google:hover {
+  background: #001635;
+  color: white;
+}
+.social-icons {
+  background: transparent;
+}
+.auth-inputs a {
+  color: #00b7b5;
+  background: transparent;
+}
+.auth-inputs a:hover {
+  color: #009291;
+}
+
+.check-box-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+  width: 22rem;
+  background: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+
+  font-size: 1.5rem;
+  background: #c4f8ff;
+  box-shadow: 3px 3px 3px 0 grey;
+}
+.check-box-mail:hover {
+  background: #ffd480;
+  color: black;
+  font-weight: 500;
+  outline: none;
+}
+
+.check-box-mail p {
+  width: 80%;
+  background: transparent;
+  font-weight: 500;
+}
+.card-column-mail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.check-box-mail input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  box-shadow: none;
+}
+.navbar-logo {
+  height: 3rem;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choose-card-text img {
+  height: 6rem;
+  width: 6rem;
+}
+.choose-card-text p {
+  width: 100%;
+  font-size: 1.25rem;
+}
+.card-text-input {
+  width: 22rem;
+  height: 8rem;
+  border: none;
+  border-radius: 1rem;
+
+  font-weight: 400;
+
+  font-size: 1rem;
+  background: #c4f8ff;
+  box-shadow: 3px 3px 3px 0 grey;
+}
+.card-text-input:focus {
+  background: #9aeaf5;
+  color: black;
+  font-weight: 500;
+  outline: none;
+}
+.card-font {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-font p {
+  text-align: left;
+}
+.color-btn {
+  margin: 2px;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+.align-button {
+  border: none;
+  background-color: transparent;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.align-icon {
+  height: 2rem;
+  width: 2rem;
+}

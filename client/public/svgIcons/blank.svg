@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <title>icon_card_back_text_h</title>
+  <g>
+    <rect x="11.142" y="1.5" width="67.715" height="87" transform="translate(90 0) rotate(90)" stroke-width="3" stroke="#00265d" stroke-linecap="round" stroke-linejoin="round" fill="#ffd579"/>
+    <g>
+      <line x1="29.353" y1="29.022" x2="60.647" y2="29.022" fill="none" stroke="#00265d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="29.353" y1="36.337" x2="60.647" y2="36.337" fill="none" stroke="#00265d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="29.353" y1="43.653" x2="60.647" y2="43.653" fill="none" stroke="#00265d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

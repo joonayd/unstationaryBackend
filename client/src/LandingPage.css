@@ -1,0 +1,180 @@
+/* LANDING PAGE */
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center !important;
+  width: 100%;
+  padding: 0.625rem 0;
+}
+
+.logo-img {
+  width: 17.5rem;
+}
+
+.mail {
+  background-color: #efdfbb;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail-img {
+  width: 50rem;
+}
+.vedio {
+  background-color: #954535;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  /* margin-top: -10rem; */
+}
+
+.vedio-text {
+  margin-top: -12rem;
+}
+
+.vedio-img {
+  width: 17.5rem;
+}
+.vedio-text {
+  font-size: 1rem;
+  color: black;
+}
+
+.vedio-text2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.375rem;
+  font-weight: bold;
+  color: white;
+}
+.mobile {
+  background-color: #a9ba9d;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.mobile-footer {
+  background-color: #a9ba9d;
+  display: flex;
+  text-align: center;
+
+  justify-content: space-around;
+}
+
+.mobile-value {
+  width: 6.25rem;
+  background-color: #a9ba9d;
+}
+
+.bg-mybrown {
+  background-color: brown;
+}
+
+.bg-mygreen {
+  background-color: green;
+}
+
+.App {
+  font-family: "Courier New", Courier, monospace;
+}
+.mail-font {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5.813rem;
+  color: black;
+}
+
+.mail-here {
+  font-size: 1.438rem;
+}
+
+.mail-button {
+  font-size: 0.875rem;
+}
+
+.mobile-center {
+  width: 28.125rem;
+  background-color: #a9ba9d;
+}
+
+.end {
+  background-color: #8c5740;
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 12.5rem 0;
+}
+.end-button {
+  /* color: cadetblue; */
+  background: brown;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+}
+.footer-img {
+  background-color: white;
+  width: 6.25rem;
+}
+
+.mobile1 {
+  font-size: 0.75rem;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #a9ba9d;
+}
+
+.mobile2 {
+  font-size: 2.375rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  background-color: transparent;
+}
+
+.mobile3 {
+  font-size: 1rem;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  background-color: transparent;
+}
+
+.mobile-img {
+  width: 31.25rem;
+  background-color: #a9ba9d;
+}
+
+.mobile-img2 {
+  width: 43.75rem;
+  background-color: #a9ba9d;
+}
+
+.mobile-footer-img {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: black;
+  background: #a9ba9d;
+}
+
+.mobile-div {
+  padding: 1.875rem 0;
+  background: #a9ba9d;
+}
+
+.email {
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  background: transparent;
+}
+.mobile-container {
+  background: #a9ba9d;
+}
