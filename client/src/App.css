@@ -151,6 +151,7 @@ p {
   align-items: center;
 }
 .blank-card {
+  overflow: hidden;
   height: 38rem;
   width: 30rem;
   box-shadow: 10px 10px 10px 0 gray;
@@ -538,4 +539,18 @@ p {
 .align-icon {
   height: 2rem;
   width: 2rem;
+}
+/* .preview {
+  height: 38rem;
+  width: 30rem;
+} */
+.safe-area {
+  overflow: hidden;
+}
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.upload-form button {
 }

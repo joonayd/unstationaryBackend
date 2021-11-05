@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+
 const UploadPhotoVertical = () => {
   const [fileName, setFileName] = React.useState("");
+  const [previewImage, setPreviewImage] = React.useState("");
 
   const onChangeFile = (e) => {
     setFileName(e.target.files[0]);
+    setPreviewImage(URL.createObjectURL(e.target.files[0]));
   };
 
   const changeOnClick = (e) => {
@@ -27,14 +31,42 @@ const UploadPhotoVertical = () => {
       <h3 className="upload-card-heading">Upload Your Own Card</h3>
       <section className="upload-photo-sec">
         <div className="blank-card">
-          <h3>UPLOAD PHOTO</h3>
-          <p>Recommended size is 5.25" x 7.25"</p>
+          <div className="safe-area">
+            {previewImage && (
+              <div>
+                <TransformWrapper>
+                  <TransformComponent>
+                    <img className="preview" src={previewImage} alt="" />
+                  </TransformComponent>
+                </TransformWrapper>
+              </div>
+            )}
+          </div>
+
+          {!previewImage && (
+            <>
+              <h3>UPLOAD PHOTO</h3>
+              <p>Recommended size is 5.25" x 7.25"</p>
+            </>
+          )}
           <form onSubmit={changeOnClick} encType="multipart/form-data">
-            <div>
-              <label htmlFor="file">Choose Image</label>
-              <input type="file" filename="frontImage" onChange={onChangeFile} />
+            <div className="upload-form">
+              {/* <label htmlFor="file">Choose Image</label> */}
+              <input
+                style={{ marginTop: "1rem" }}
+                // accept="image/*"
+                type="file"
+                filename="frontImage"
+                onChange={onChangeFile}
+              />
+              <button
+                style={{ marginTop: "1rem", marginBottom: "1rem" }}
+                className="btn btn-primary"
+                type="submit"
+              >
+                submit
+              </button>
             </div>
-            <button type="submit">submit</button>
           </form>
         </div>
         <div className="upload-photo-card">
